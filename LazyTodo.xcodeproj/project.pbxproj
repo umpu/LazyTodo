@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		20601EC22BE5123A002D4549 /* LazyTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EC12BE5123A002D4549 /* LazyTodoApp.swift */; };
-		20601EC42BE5123A002D4549 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EC32BE5123A002D4549 /* ContentView.swift */; };
 		20601EC62BE5123C002D4549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20601EC52BE5123C002D4549 /* Assets.xcassets */; };
 		20601EC92BE5123C002D4549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20601EC82BE5123C002D4549 /* Preview Assets.xcassets */; };
+		20601ED02BE51276002D4549 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ECF2BE51276002D4549 /* LoginScreen.swift */; };
+		20601ED22BE51340002D4549 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ED12BE51340002D4549 /* RegisterScreen.swift */; };
+		20601ED52BE51475002D4549 /* AppFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ED42BE51475002D4549 /* AppFlowScreen.swift */; };
+		20601ED72BE5152E002D4549 /* MainFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ED62BE5152E002D4549 /* MainFlowScreen.swift */; };
+		20601ED92BE51571002D4549 /* AuthFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ED82BE51571002D4549 /* AuthFlowScreen.swift */; };
+		20601EDB2BE51D2C002D4549 /* TodayFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */; };
+		20601EDE2BE51DEC002D4549 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EDD2BE51DEC002D4549 /* Todo.swift */; };
+		20601EE32BE51F14002D4549 /* TodoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EE22BE51F14002D4549 /* TodoListScreen.swift */; };
+		20601EE52BE52437002D4549 /* TodoDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EE42BE52437002D4549 /* TodoDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20601EBE2BE5123A002D4549 /* LazyTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20601EC12BE5123A002D4549 /* LazyTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyTodoApp.swift; sourceTree = "<group>"; };
-		20601EC32BE5123A002D4549 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20601EC52BE5123C002D4549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20601EC82BE5123C002D4549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20601ECF2BE51276002D4549 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		20601ED12BE51340002D4549 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		20601ED42BE51475002D4549 /* AppFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowScreen.swift; sourceTree = "<group>"; };
+		20601ED62BE5152E002D4549 /* MainFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowScreen.swift; sourceTree = "<group>"; };
+		20601ED82BE51571002D4549 /* AuthFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowScreen.swift; sourceTree = "<group>"; };
+		20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFlowScreen.swift; sourceTree = "<group>"; };
+		20601EDD2BE51DEC002D4549 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		20601EE22BE51F14002D4549 /* TodoListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListScreen.swift; sourceTree = "<group>"; };
+		20601EE42BE52437002D4549 /* TodoDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,8 @@
 		20601EC02BE5123A002D4549 /* LazyTodo */ = {
 			isa = PBXGroup;
 			children = (
+				20601EDF2BE51EC2002D4549 /* App */,
 				20601EC12BE5123A002D4549 /* LazyTodoApp.swift */,
-				20601EC32BE5123A002D4549 /* ContentView.swift */,
 				20601EC52BE5123C002D4549 /* Assets.xcassets */,
 				20601EC72BE5123C002D4549 /* Preview Content */,
 			);
@@ -65,6 +81,54 @@
 				20601EC82BE5123C002D4549 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20601ED32BE51467002D4549 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				20601ED42BE51475002D4549 /* AppFlowScreen.swift */,
+				20601ED82BE51571002D4549 /* AuthFlowScreen.swift */,
+				20601ED62BE5152E002D4549 /* MainFlowScreen.swift */,
+				20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		20601EDC2BE51DD8002D4549 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				20601EDD2BE51DEC002D4549 /* Todo.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		20601EDF2BE51EC2002D4549 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				20601EDC2BE51DD8002D4549 /* Entity */,
+				20601EE12BE51EEE002D4549 /* Screens */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		20601EE02BE51EE6002D4549 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				20601ED32BE51467002D4549 /* Flow */,
+				20601ECF2BE51276002D4549 /* LoginScreen.swift */,
+				20601ED12BE51340002D4549 /* RegisterScreen.swift */,
+				20601EE42BE52437002D4549 /* TodoDetailScreen.swift */,
+				20601EE22BE51F14002D4549 /* TodoListScreen.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		20601EE12BE51EEE002D4549 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				20601EE02BE51EE6002D4549 /* Todo */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,8 @@
 			dependencies = (
 			);
 			name = LazyTodo;
+			packageProductDependencies = (
+			);
 			productName = LazyTodo;
 			productReference = 20601EBE2BE5123A002D4549 /* LazyTodo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,8 @@
 				Base,
 			);
 			mainGroup = 20601EB52BE5123A002D4549;
+			packageReferences = (
+			);
 			productRefGroup = 20601EBF2BE5123A002D4549 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +205,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20601EC42BE5123A002D4549 /* ContentView.swift in Sources */,
+				20601ED72BE5152E002D4549 /* MainFlowScreen.swift in Sources */,
+				20601EDB2BE51D2C002D4549 /* TodayFlowScreen.swift in Sources */,
+				20601EE52BE52437002D4549 /* TodoDetailScreen.swift in Sources */,
+				20601ED22BE51340002D4549 /* RegisterScreen.swift in Sources */,
+				20601EDE2BE51DEC002D4549 /* Todo.swift in Sources */,
+				20601ED52BE51475002D4549 /* AppFlowScreen.swift in Sources */,
 				20601EC22BE5123A002D4549 /* LazyTodoApp.swift in Sources */,
+				20601EE32BE51F14002D4549 /* TodoListScreen.swift in Sources */,
+				20601ED02BE51276002D4549 /* LoginScreen.swift in Sources */,
+				20601ED92BE51571002D4549 /* AuthFlowScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +356,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +386,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
