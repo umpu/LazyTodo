@@ -1,0 +1,15 @@
+{
+  "originHash" : "67cd90da3962eb68e1de74a3947de0997677caa8be6cfe60bc874ca2e52c4aba",
+  "pins" : [
+    {
+      "identity" : "loremipsum",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lukaskubanek/LoremIpsum",
+      "state" : {
+        "branch" : "master",
+        "revision" : "3c739014fd11bcf0a3b2263b95b89d12f1257579"
+      }
+    }
+  ],
+  "version" : 3
+}

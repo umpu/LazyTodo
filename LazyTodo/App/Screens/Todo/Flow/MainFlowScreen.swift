@@ -1,17 +1,26 @@
 import SwiftUI
 
+enum MainFlowRoute: Hashable {
+    case todoDetail(Todo)
+    case todoList(Date)
+}
+
 struct MainFlowScreen: View {
     var body: some View {
         TabView {
-            Text("Сегодня")
+            TodayFlowScreen()
                 .tabItem {
-                    Label("Сегодня", systemImage: "calendar")
+                    Label("Today", systemImage: "calendar")
                 }
             
-            Text("История")
+            HistoryFlowScreen()
                 .tabItem {
-                    Label("История", systemImage: "calendar")
+                    Label("History", systemImage: "calendar")
                 }
         }
     }
+}
+
+#Preview {
+    MainFlowScreen()
 }

@@ -17,6 +17,6 @@ struct LoginScreen: View {
             .padding()
         }
         .textFieldStyle(.roundedBorder)
-        .navigationTitle("Authorisation")
+        .navigationTitle("")
     }
 }

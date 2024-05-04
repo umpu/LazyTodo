@@ -13,10 +13,14 @@
 		200967242BE60A3D0067C751 /* AppFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200967232BE60A3D0067C751 /* AppFlowScreen.swift */; };
 		200967262BE60AB60067C751 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200967252BE60AB60067C751 /* LoginScreen.swift */; };
 		200967282BE60B530067C751 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200967272BE60B530067C751 /* RegisterScreen.swift */; };
+		2009672A2BE60CC40067C751 /* HistoryFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200967292BE60CC40067C751 /* HistoryFlowScreen.swift */; };
+		2009672C2BE60D4F0067C751 /* AuthFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009672B2BE60D4F0067C751 /* AuthFlowScreen.swift */; };
+		2009672E2BE60E090067C751 /* DateListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009672D2BE60E090067C751 /* DateListScreen.swift */; };
+		200967302BE6211B0067C751 /* NewTodoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009672F2BE6211B0067C751 /* NewTodoScreen.swift */; };
+		200967502BE6ADF50067C751 /* LoremIpsum in Frameworks */ = {isa = PBXBuildFile; productRef = 2009674F2BE6ADF50067C751 /* LoremIpsum */; };
 		20601EC22BE5123A002D4549 /* LazyTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EC12BE5123A002D4549 /* LazyTodoApp.swift */; };
 		20601EC62BE5123C002D4549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20601EC52BE5123C002D4549 /* Assets.xcassets */; };
 		20601EC92BE5123C002D4549 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20601EC82BE5123C002D4549 /* Preview Assets.xcassets */; };
-		20601ED92BE51571002D4549 /* AuthFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601ED82BE51571002D4549 /* AuthFlowScreen.swift */; };
 		20601EDB2BE51D2C002D4549 /* TodayFlowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */; };
 		20601EDE2BE51DEC002D4549 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EDD2BE51DEC002D4549 /* Todo.swift */; };
 		20601EE52BE52437002D4549 /* TodoDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20601EE42BE52437002D4549 /* TodoDetailScreen.swift */; };
@@ -29,11 +33,14 @@
 		200967232BE60A3D0067C751 /* AppFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowScreen.swift; sourceTree = "<group>"; };
 		200967252BE60AB60067C751 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		200967272BE60B530067C751 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		200967292BE60CC40067C751 /* HistoryFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryFlowScreen.swift; sourceTree = "<group>"; };
+		2009672B2BE60D4F0067C751 /* AuthFlowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthFlowScreen.swift; sourceTree = "<group>"; };
+		2009672D2BE60E090067C751 /* DateListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListScreen.swift; sourceTree = "<group>"; };
+		2009672F2BE6211B0067C751 /* NewTodoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoScreen.swift; sourceTree = "<group>"; };
 		20601EBE2BE5123A002D4549 /* LazyTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20601EC12BE5123A002D4549 /* LazyTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyTodoApp.swift; sourceTree = "<group>"; };
 		20601EC52BE5123C002D4549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20601EC82BE5123C002D4549 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		20601ED82BE51571002D4549 /* AuthFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFlowScreen.swift; sourceTree = "<group>"; };
 		20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFlowScreen.swift; sourceTree = "<group>"; };
 		20601EDD2BE51DEC002D4549 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		20601EE42BE52437002D4549 /* TodoDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailScreen.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200967502BE6ADF50067C751 /* LoremIpsum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,10 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				200967232BE60A3D0067C751 /* AppFlowScreen.swift */,
-				20601ED82BE51571002D4549 /* AuthFlowScreen.swift */,
 				200967212BE6099E0067C751 /* AuthFlowScreen.swift */,
-				20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */,
+				2009672B2BE60D4F0067C751 /* AuthFlowScreen.swift */,
+				200967292BE60CC40067C751 /* HistoryFlowScreen.swift */,
 				2009671F2BE609370067C751 /* MainFlowScreen.swift */,
+				20601EDA2BE51D2C002D4549 /* TodayFlowScreen.swift */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -118,7 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				20601ED32BE51467002D4549 /* Flow */,
+				2009672D2BE60E090067C751 /* DateListScreen.swift */,
 				200967252BE60AB60067C751 /* LoginScreen.swift */,
+				2009672F2BE6211B0067C751 /* NewTodoScreen.swift */,
 				200967272BE60B530067C751 /* RegisterScreen.swift */,
 				20601EE42BE52437002D4549 /* TodoDetailScreen.swift */,
 				2009671D2BE607B00067C751 /* TodoListScreen.swift */,
@@ -151,6 +162,7 @@
 			);
 			name = LazyTodo;
 			packageProductDependencies = (
+				2009674F2BE6ADF50067C751 /* LoremIpsum */,
 			);
 			productName = LazyTodo;
 			productReference = 20601EBE2BE5123A002D4549 /* LazyTodo.app */;
@@ -181,6 +193,7 @@
 			);
 			mainGroup = 20601EB52BE5123A002D4549;
 			packageReferences = (
+				2009674E2BE6AD800067C751 /* XCRemoteSwiftPackageReference "LoremIpsum" */,
 			);
 			productRefGroup = 20601EBF2BE5123A002D4549 /* Products */;
 			projectDirPath = "";
@@ -208,16 +221,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2009672A2BE60CC40067C751 /* HistoryFlowScreen.swift in Sources */,
 				20601EDB2BE51D2C002D4549 /* TodayFlowScreen.swift in Sources */,
 				20601EE52BE52437002D4549 /* TodoDetailScreen.swift in Sources */,
 				200967222BE6099E0067C751 /* AuthFlowScreen.swift in Sources */,
 				200967202BE609370067C751 /* MainFlowScreen.swift in Sources */,
 				200967242BE60A3D0067C751 /* AppFlowScreen.swift in Sources */,
+				200967302BE6211B0067C751 /* NewTodoScreen.swift in Sources */,
 				20601EDE2BE51DEC002D4549 /* Todo.swift in Sources */,
 				20601EC22BE5123A002D4549 /* LazyTodoApp.swift in Sources */,
 				200967282BE60B530067C751 /* RegisterScreen.swift in Sources */,
-				20601ED92BE51571002D4549 /* AuthFlowScreen.swift in Sources */,
+				2009672C2BE60D4F0067C751 /* AuthFlowScreen.swift in Sources */,
 				200967262BE60AB60067C751 /* LoginScreen.swift in Sources */,
+				2009672E2BE60E090067C751 /* DateListScreen.swift in Sources */,
 				2009671E2BE607B00067C751 /* TodoListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2009674E2BE6AD800067C751 /* XCRemoteSwiftPackageReference "LoremIpsum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremIpsum";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2009674F2BE6ADF50067C751 /* LoremIpsum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2009674E2BE6AD800067C751 /* XCRemoteSwiftPackageReference "LoremIpsum" */;
+			productName = LoremIpsum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20601EB62BE5123A002D4549 /* Project object */;
 }
